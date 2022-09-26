@@ -1,0 +1,7 @@
+# Identify the MAC address of the Wi-Fi card
+
+# get only the address:
+ifconfig en1 | grep ether | cut -d ' ' -f2
+
+# alternatively: ifconfig en1 | grep ether | awk '{ print substr( $0, 8)}'
+
