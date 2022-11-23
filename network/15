@@ -1,0 +1,6 @@
+# Make the intra.42.fr address reroute to 46.19.122.85
+
+We would edit the host file
+46.19.122.85	intra.42.fr
+(if we were in France where the subject was made then this would make sense.
+Here we would make the cdn.hive.fi reroute to whatever address. I guess)

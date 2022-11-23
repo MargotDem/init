@@ -1,2 +1,8 @@
 # Identify the default gateway in the routing table
 
+# https://www.howtouselinux.com/post/linux-command-get-network-gateway
+# A network gateway is a device that connects two networks together. In the context of Linux, a gateway is often used to connect a local network to the Internet.
+# A gateway can be a hardware device, such as a router, or it can be a software program, such as a proxy server.
+# By using a gateway, you can allow computers on your local network to access resources on the Internet.
+
+netstat -rn | grep default  -m1 | awk '{print $2}'

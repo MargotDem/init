@@ -1,0 +1,8 @@
+# Identify the IP address of the DNS that responds to the following url: who.int
+
+host who.int | grep address | cut -d ' ' -f4
+
+# A DNS is the phone book of the internet
+
+# alternatively use:
+# nslookup who.int | awk '/Name/{getline; print $2}'

@@ -1,0 +1,4 @@
+# Thanks to the previous question and the reverse DNS find the name of your host
+
+# nslookup 10.11.6.4 |  grep name | cut -d ' ' -f3
+c1r6p4.hive.fi.

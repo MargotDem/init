@@ -1,0 +1,21 @@
+# Identify and display the Ethernet interface characteristics:
+# a) Identify broadcast address
+# b) Identify all IP adresses which are part of the same subnet
+
+
+# Ethernet is Local Area Network (LAN) technology.
+# It is a system with protocol to connect multiple systems on the LAN network connection.
+# Ethernet offers connectionless communication.
+
+
+# a)
+ifconfig en0 | grep broadcast | cut -d' ' -f6
+
+# b)
+arp -ai en0 | awk '{print $2}'
+
+# what is 127.0 0.1 even?
+# 0.1, the IP address of the local computer. This IP address allows the machine to connect to and communicate with itself.
+# Therefore, localhost (127.0. 0.1) is used to establish an IP connection to the same device used by the end-user.
+
+# A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network.

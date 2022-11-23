@@ -5,3 +5,5 @@ ifconfig en1 | grep ether | cut -d ' ' -f2
 
 # alternatively: ifconfig en1 | grep ether | awk '{ print substr( $0, 8)}'
 
+# A MAC (Media Access Control) address, sometimes referred to as a hardware or physical address,
+# is a unique, 12-character alphanumeric attribute that is used to identify individual electronic devices on a network.
