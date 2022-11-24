@@ -1,0 +1,8 @@
+# List all services which are started at boot time and name this kind of services
+
+systemctl --type=service
+
+# They are called daemons:
+# https://ostechnix.com/how-to-list-startup-services-at-boot-in-linux/
+
+# https://net2.com/how-to-list-start-and-stop-services-at-boot-time-in-linux-ubuntu-debian/

@@ -1,0 +1,5 @@
+# Name the command that determines the state of the SSH service.
+
+sudo service ssh status
+
+# Secure Shell is a network communication protocol that enables two computers to communicate 

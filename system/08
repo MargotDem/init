@@ -1,0 +1,6 @@
+# What file contains the RSA keys of systems that are authorized to connect via SSH?
+
+.ssh/authorized_keys
+
+# https://attack.mitre.org/techniques/T1098/004/
+# https://phoenixnap.com/kb/ssh-to-connect-to-remote-server-linux-or-windows 

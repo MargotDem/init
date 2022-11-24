@@ -1,0 +1,6 @@
+# Explain how connect yourself as new user. (With graphic session and ssh session)
+
+1) in graphic session: log out and relog in with the new user
+
+2) same as question 17: ssh username@ip
+
